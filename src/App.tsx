@@ -6,12 +6,13 @@ export default function App() {
   const [result, setResult] = useState<any>(null)
 
   function simulate() {
-    const res = runSimulation({
-      duration: 180,
-      iterations: 1000,
-      weapon: weapons[0],
-      windfury: true
-    })
+  const res = runSimulation({
+  duration: 180,
+  iterations: 1000,
+  weapon: weapons[0],
+  windfury: true,
+  seed: 12345
+});
     setResult(res)
   }
 
