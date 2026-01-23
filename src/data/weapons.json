@@ -1,0 +1,11 @@
+[
+  {
+    "id": "example_2h",
+    "name": "Example 2H Weapon",
+    "hand": "2h",
+    "speed": 3.6,
+    "minDamage": 200,
+    "maxDamage": 300,
+    "stats": {}
+  }
+]
